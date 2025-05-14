@@ -5,25 +5,29 @@
   }
 
   &__paragraph {
-
+    color: var(--slightly-transparent-white-p);
   }
-  
+
   &__numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 
-    &--companies {
-
+    &--stats {
+      display: flex;
+      flex-direction: column;
     }
 
-    &--templates {
-
-    }
-
-    &--queries {
-
+    &--strong {
+      font-size: 24px;
+      font-weight: bold;
     }
 
     &--light {
-
+      color: var(--slightly-transparent-white);
+      text-transform: uppercase;
     }
   }
 }
