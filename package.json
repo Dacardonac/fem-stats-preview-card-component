@@ -1,0 +1,39 @@
+{
+  "name": "fem-stats-preview-card-component",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Daniel Alejandro Cano Cardona <dacardonac201@gmail.com> (https://github.com/Dacardonac)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "commit": "cz",
+    "pre-commit": "lint-staged",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@eslint/js": "^9.26.0",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react-swc": "^3.9.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "esbuild": "^0.25.4",
+    "eslint": "^9.26.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.1.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.0.0",
+    "prettier": "^3.5.3",
+    "sass-embedded": "^1.88.0",
+    "vite": "^6.3.5"
+  }
+}
