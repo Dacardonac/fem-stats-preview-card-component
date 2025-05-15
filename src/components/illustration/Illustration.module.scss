@@ -1,12 +1,13 @@
 .illustration {
   position: relative;
   display: inline-block;
-  width: 500px;
-  
+  width: 100%;
+
+
   &__image {
     display: block;
     width: 100%;
-    height: auto;
+    height: 280px;
     filter: grayscale(100%);
     object-fit: cover;
   }
