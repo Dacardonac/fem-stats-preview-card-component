@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
 import i from './Illustration.module.scss';
 
-const Illustration = () => {
-  const [imageSrc, setImageSrc] = useState('/src/assets/images/image-header-desktop.webp');
+const Illustration = ({ description }) => {
+  const [imageSrc, setImageSrc] = useState(
+    '/src/assets/images/image-header-desktop.webp',
+  );
 
   useEffect(() => {
     const updateImage = () => {
@@ -20,9 +22,9 @@ const Illustration = () => {
   return (
     <figure className={i.illustration}>
       <img
-        className={i["illustration__image"]}
+        className={i['illustration__image']}
         src={imageSrc}
-        alt="header image"
+        alt={description}
       />
     </figure>
   );
