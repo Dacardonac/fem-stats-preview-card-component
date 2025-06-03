@@ -2,16 +2,14 @@ import { useState, useEffect } from 'react';
 import i from './Illustration.module.scss';
 
 const Illustration = ({ description }) => {
-  const [imageSrc, setImageSrc] = useState(
-    '/src/assets/images/image-header-desktop.webp',
-  );
+  const [imageSrc, setImageSrc] = useState('images/image-header-desktop.webp');
 
   useEffect(() => {
     const updateImage = () => {
       if (window.innerWidth >= 1440) {
-        setImageSrc('/src/assets/images/image-header-desktop.webp');
+        setImageSrc('images/image-header-desktop.webp');
       } else {
-        setImageSrc('/src/assets/images/image-header-mobile.webp');
+        setImageSrc('images/image-header-mobile.webp');
       }
     };
     updateImage();
