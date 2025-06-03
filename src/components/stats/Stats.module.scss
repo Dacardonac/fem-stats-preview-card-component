@@ -1,9 +1,10 @@
 .stats {
-  padding: 40px;
   &__title {
-    font-size: 35px;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: bold;
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 40px 31.5px 16px 31.5px;
 
     &--violet {
       color: var(--soft-violet);
@@ -12,9 +13,9 @@
 
   &__paragraph {
     text-align: center;
-    font-size: 18px;
-    letter-spacing: 1px;
-    margin-bottom: 2rem;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0 31.5px 40px 31.5px;
     color: var(--slightly-transparent-white-p);
   }
 
@@ -23,12 +24,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 24px;
+    margin-bottom: 32px;
 
     &--stats {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      gap: 2px;
     }
 
     &--strong {
@@ -40,6 +43,9 @@
     &--light {
       color: var(--slightly-transparent-white);
       text-transform: uppercase;
+      font-size: 12px;
+      line-height: 25px;
+      letter-spacing: 1px;
     }
   }
 }

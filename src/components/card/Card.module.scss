@@ -1,8 +1,10 @@
 .card {
-  width: 400px;
+  width: 327px;
+  height: 780px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--dark-desaturated-blue);
+  border-radius: 8px;
 }
