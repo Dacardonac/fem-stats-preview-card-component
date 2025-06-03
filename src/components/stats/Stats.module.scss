@@ -48,4 +48,30 @@
       letter-spacing: 1px;
     }
   }
+
+  @media (min-width: 1440px) {
+    &__title {
+      font-size: 36px;
+      line-height: 44px;
+      margin: 71px 95px 25px 72px;
+      text-align: left;
+
+      &--violet {
+        color: var(--soft-violet);
+      }
+    }
+
+    &__paragraph {
+      text-align: left;
+      margin: 0 124.5px 72px 71.5px;
+    }
+
+    &__numbers {
+      flex-direction: row;
+      margin-bottom: 59px;
+      justify-content: flex-start;
+      gap: 61px;
+      margin-left: 71.5px;
+    }
+  }
 }

@@ -24,4 +24,11 @@
     opacity: 0.5;
     pointer-events: none;
   }
+
+  @media (min-width: 1440px) {
+    &__image {
+      height: 446px;
+      border-radius: 0 8px 8px 0;
+    }
+  }
 }

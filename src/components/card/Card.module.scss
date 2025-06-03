@@ -7,4 +7,10 @@
   align-items: center;
   background-color: var(--dark-desaturated-blue);
   border-radius: 8px;
+
+  @media (min-width: 1440px) {
+    width: 1110px;
+    height: 446px;
+    flex-direction: row-reverse;
+  }
 }
